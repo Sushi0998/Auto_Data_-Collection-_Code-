@@ -24,7 +24,7 @@ for i in range (100,120):
     #r = requests.get(str(response))
     #print (r)
     # r = requests.get(file, auth=HTTPBasicAuth('username', 'password'))
-    with open(f'//coe-fs.engr.tamu.edu/Research/CVEN/Medina-Cetina_Zenon/Students/Shinde_Suraj/Utha/{f_name}.csv', 'wb') as f:
+    with open(f'/{f_name}.csv', 'wb') as f:
       f.write(response.content)
       print (response.content)
   else:
